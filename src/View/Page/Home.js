@@ -9,6 +9,7 @@ import Projects from "../../Data/Projects";
 import SingleProject from "../Partials/Project/SingleProject";
 import Footer from "../Partials/Footer";
 import ContactMe from "../Partials/ContactMe";
+import cat from "../../assets/images/cat.jpg"
 
 class Home extends Component {
     /**
@@ -39,8 +40,10 @@ class Home extends Component {
                             <Row className="align-items-center">
                                 <Col className="image" data-aos={'fade-down-right'}>
                                     <img className="img-fluid"
-                                         src="./assets/images/hero.jpg"
-                                         alt="header"/>
+                                         src={cat}
+                                         alt="header"
+                                         style={{width: '200px', height: '200px'}}
+                                         />
                                 </Col>
                                 <Col className="text-center description" data-aos={'fade-up-left'}>
                                     <h1>John Doe</h1>
