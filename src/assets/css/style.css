@@ -107,6 +107,14 @@ body {
     animation-timing-function: ease;
 }
 
+.news_hover {
+    color: #CD5F51;
+}
+
+.news_hover:hover {
+    color: #c14433;
+}
+
 header .row .col nav {
     padding: 10px;
     background: #1B1E21;

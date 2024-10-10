@@ -1,88 +1,77 @@
 class Companies {
-    static getCompanies = () => {
-        return [
-            {
-                id: 1,
-                name: 'Tech Lead at ABC Firm',
-                description:
-                    'Working on a product which relates to banking domain with Java',
-                month: 'Feb',
-                year: '2020',
-                side: 'left',
-                responsibilities: [
-                    'Plan and design database and application architecture on the initial stage of development.',
-                    'Develop REST APIs',
-                ]
-            },
-            {
-                id: 2,
-                name: 'Senior Software Engineer at Codelabs',
-                description:
-                    'I have been able to work on multiple projects, most notably a taxi platform. I was assigned to develop the back-end functionalities as well as some front-end modules.',
-                month: 'Jun',
-                year: '2018',
-                side: 'right',
-                responsibilities: [
-                    'Help the tech lead to plan and design database and application architecture on the initial stage of development.',
-                    'Develop REST APIs for mobile applications and web applications',
-                    'Develop web applications',
-                    'Mentor junior developers so that they can get into development and fix difficult situations.'
-                ]
-            },
-            {
-                id: 3,
-                name: 'Senior Software Engineer at Web Agency',
-                description:
-                    'I worked on a park listing website and an yellow pages platform.',
-                month: 'Jul',
-                year: '2017',
-                side: 'left',
-                responsibilities: [
-                    'Helped the tech lead to plan and design database and application architecture on the initial stage of development.',
-                    'Developed REST APIs for mobile applications and web applications.',
-                    'Developed server rendered HTML pages for web applications.',
-                ]
-            },
-            {
-                id: 4,
-                name: 'Web Developer at Awesome product',
-                description: 'Awesome product was the largest platform in the world.',
-                month: 'Aug',
-                year: '2016',
-                side: 'right',
-                responsibilities: [
-                    'Helped the tech lead to plan and design a custom model view controller framework for the application',
-                    'Developed a web crawler for indexing the job advertisements.',
-                    'Developed server rendered HTML pages for web application.',
-                ]
-            },
-            {
-                id: 5,
-                name: 'Web Developer at web company',
-                description:
-                    'Worked on a various CMS and e-commerce websites with Magento and WordPress',
-                month: 'Feb',
-                year: '2015',
-                side: 'left',
-                responsibilities: [
-                    'Integrated static HTML into custom WordPress/Magento themes.',
-                    'Developed custom plugins for WordPress/Magento.'
-                ]
-            },
-            {
-                id: 6,
-                name: 'Associate Software Engineer at BIG four',
-                description:
-                    'Worked on a ERP software.',
-                month: 'May',
-                year: '2014',
-                side: 'right',
-                responsibilities: [
-                    'Build new modules for client requirements'
-                ]
-            },
-        ]
-    }
+  static getCompanies = () => {
+    return [
+      {
+        id: 1,
+        name: "Джоэл",
+        description:
+          "Джоэл Миллер (англ. Joel Miller) — один из главных игровых персонажей и протагонист игры The Last of Us. Безжалостный контрабандист, выживающий в условиях эпидемии кордицепсной церебральной инфекции, которая уничтожила практически всё человечество.",
+        month: "Sep",
+        year: "2024",
+        side: "left",
+        responsibilities: [
+          "Трой Бэйкер озвучил персонажа и принял участие в захвате движения.",
+          "На русский дублировал Всеволод Кузнецов.",
+        ],
+      },
+      {
+        id: 2,
+        name: "Элли",
+        description:
+          "Элли Уильямс (англ. Ellie Williams) — одна из игровых персонажей и главная героиня игры The Last of Us, загружаемого дополнения Left Behind и комикса The Last of Us: American Dreams. На момент событий игры ей четырнадцать лет (в комиксе — тринадцать). Элли — одна из выживших в условиях пандемии кордицепсной церебральной инфекции и обладатель иммунитета против заражения.",
+        month: "Sep",
+        year: "2024",
+        side: "right",
+        responsibilities: [
+          "В захвате движения и озвучке персонажа приняла участие Эшли Джонсон.",
+        ],
+      },
+      {
+        id: 3,
+        name: "Сара",
+        description:
+          'Сара Миллер (англ. Sarah Miller) — 12-летняя девочка, дочь Джоэла, игровой персонаж в прологе "Одни из нас" (англ. The Last of Us). Ее смерть сильно повлияла на характер отца и во многом является начальной установкой его персонажа.',
+        month: "Sep",
+        year: "2024",
+        side: "left",
+        responsibilities: [
+          "Озвучила и сыграла анимацию Хана Хейес"
+        ],
+      },
+      {
+        id: 4,
+        name: "Томми",
+        description: "Томми (англ. Tommy) — персонаж игры The Last of Us, выживающий в условиях эпидемии кордицепсной церебральной инфекции. Младший брат Джоэла, дядя Сары, муж Марии и бывший член «Цикад».",
+        month: "Sep",
+        year: "2024",
+        side: "right",
+        responsibilities: [
+          "Джеффри Пирс озвучил персонажа и принял участие в «захвате движения» для этого героя."
+        ],
+      },
+      {
+        id: 5,
+        name: "Тесс",
+        description:
+          "Тесс (англ. Tess) — персонаж игры The Last of Us. Контрабандистка, выживающая в условиях пандемии кордицепсной церебральной инфекции, состоящая с Джоэлом в деловых и, возможно, романтических отношениях.",
+        month: "Sep",
+        year: "2024",
+        side: "left",
+        responsibilities: [
+          "В захвате движения и озвучке приняла участие Энни Вершинг."
+        ],
+      },
+      {
+        id: 6,
+        name: "Марлин",
+        description: "Марлин (англ. Marlene) — персонаж игры The Last of Us, выживающий в условиях пандемии кордицепсной церебральной инфекции. Лидер группировки под названием «Цикады» (англ. Fireflies) и близкая подруга Анны — матери Элли.",
+        month: "Sep",
+        year: "2024",
+        side: "right",
+        responsibilities: ["Мерл Дэндридж озвучила героя и приняла участие в «захвате движения» для данного персонажа."],
+      },
+    ];
+  };
 }
 
 export default Companies;

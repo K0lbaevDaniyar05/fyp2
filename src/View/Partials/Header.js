@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
+import logo from '../../assets/images/log2.png'
 
 class Header extends Component {
     render() {
@@ -10,8 +11,8 @@ class Header extends Component {
                     <Navbar expand="lg">
                         <Navbar.Brand>
                             <Link to="/">
-                                Logo
-                                {/*    You can use image as logo with img tag. Styling is already done.*/}
+                                {/* Logo */}
+                                <img src={logo} alt='logo' style={{borderRadius: '10px'}} />
                             </Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarSupportedContent"/>
@@ -19,17 +20,17 @@ class Header extends Component {
                             <Nav className="ml-auto" as="ul">
                                 <li className="nav-item">
                                     <NavLink exact={true} to="/" className="nav-link">
-                                        Home
+                                        Об игре
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink exact={true} to="/about-me" className="nav-link">
-                                        About Me
+                                        Новости
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink exact={true} to="/contact-me" className="nav-link">
-                                        Contact Me
+                                        Контакты
                                     </NavLink>
                                 </li>
                             </Nav>

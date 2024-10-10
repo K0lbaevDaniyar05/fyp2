@@ -14,7 +14,7 @@ class Skills {
             {
                 id: 3,
                 label: 'Laravel',
-                progress: 75
+                progress: 20
             },
             {
                 id: 4,
@@ -30,16 +30,6 @@ class Skills {
                 id: 6,
                 label: 'React.JS',
                 progress: 70
-            },
-            {
-                id: 7,
-                label: 'Git',
-                progress: 70
-            },
-            {
-                id: 8,
-                label: 'Scrum/Agile',
-                progress: 80
             },
         ];
     }
